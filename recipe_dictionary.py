@@ -1,11 +1,13 @@
 recipes = {
-    "Awesome Snack": [('Hot Sauce', 'Cake Mix'),
+    "Awesome Snack": 
+    [('Hot Sauce', 'Cake Mix'),
      ('Inky Sauce', 'Cake Mix'),
      ('Dayzee Tear', 'Cake Mix'),
      ('Fresh Veggie', 'Cake Mix'),
      ('Smelly Herb', 'Cake Mix')],
 
-    "Berry Snow Bunny": [('Snow Bunny', 'Red Apple'),
+    "Berry Snow Bunny": 
+    [('Snow Bunny', 'Red Apple'),
      ('Snow Bunny', 'Pink Apple'),
      ('Snow Bunny', 'Primordial Fruit'),
      ('Peach Juice', 'Snow Bunny'),
@@ -16,7 +18,8 @@ recipes = {
      ('Dayzee Syrup', 'Snow Bunny'),
      ('Sap Syrup', 'Snow Bunny')],
 
-    "Block Meal": [('Block Block', ''),
+    "Block Meal": 
+    [('Block Block', ''),
      ('Shroom Shake', 'Block Block'),
      ('Long-Last Shake', 'Block Block'),
      ('Volt Shroom', 'Block Block'),
@@ -29,7 +32,8 @@ recipes = {
      ('Power Steak', 'Block Block'),
      ('Bone-In Cut', 'Block Block')],
 
-    "Choco Pasta Dish": [('Mild Cocoa Bean', 'Fresh Pasta Bunch'),
+    "Choco Pasta Dish": 
+    [('Mild Cocoa Bean', 'Fresh Pasta Bunch'),
      ('Standard Chocolate', 'Fresh Pasta Bunch'),
      ('Sweet Choco-bar', 'Fresh Pasta Bunch'),
      ('Shroom Choco-bar', 'Fresh Pasta Bunch'),
@@ -71,7 +75,8 @@ recipes = {
      ('Love Noodle Dish', 'Shroom Choco-bar'),
      ('Love Noodle Dish', 'Golden Choco-bar')],
 
-    "Chocolate Cake": [('Mild Cocoa Bean', 'Cake Mix'),
+    "Chocolate Cake": 
+    [('Mild Cocoa Bean', 'Cake Mix'),
      ('Mild Cocoa Bean', 'Big Egg'),
      ('Awesome Snack', 'Mild Cocoa Bean'),
      ('Koopa Dumpling', 'Mild Cocoa Bean'),
@@ -116,11 +121,14 @@ recipes = {
      ('Warm Cocoa', 'Big Egg'),
      ('Fruity Shroom', 'Shroom Choco-bar')],
 
-    "Couple's Cake": [('Berry Snow Bunny', 'Snow Bunny')],
+    "Couple's Cake": 
+    [('Berry Snow Bunny', 'Snow Bunny')],
 
-    "Courage Shell": [('Shell Shock', '')],
+    "Courage Shell": 
+    [('Shell Shock', '')],
 
-    "Dangerous Delight": [('Ghost Shroom', ''),
+    "Dangerous Delight": 
+    [('Ghost Shroom', ''),
      ('Poison Shroom', ''),
      ('Ghost Shroom', 'Fire Burst'),
      ('Ghost Shroom', 'Ice Storm'),
@@ -229,7 +237,8 @@ recipes = {
      ('Dyllis Dynamite', 'Ghost Shroom'),
      ('Dyllis Dynamite', 'Poison Shroom')],
 
-    "Dayzee Syrup": [('Dayzee Tear', ''),
+    "Dayzee Syrup": 
+    [('Dayzee Tear', ''),
      ('Dayzee Tear', 'Peachy Peach'),
      ('Dayzee Tear', 'Keel Mango'),
      ('Dayzee Tear', 'Blue Apple'),
@@ -251,7 +260,8 @@ recipes = {
      ('Slimy Extract', 'Dayzee Tear'),
      ('Weird Extract', 'Dayzee Tear')],
 
-    "Dyllis Breakfast": [('Fried Shroom Plate', 'Shroom Shake'),
+    "Dyllis Breakfast": 
+    [('Fried Shroom Plate', 'Shroom Shake'),
      ('Fried Shroom Plate', 'Long-Last Shake'),
      ('Fried Shroom Plate', 'Volt Shroom'),
      ('Fried Shroom Plate', 'Super Shroom Shake'),
@@ -452,7 +462,8 @@ recipes = {
      ('Koopa Pilaf', 'Inky Soup'),
      ('Koopa Pilaf', 'Block Meal')],
 
-    "Dyllis Deluxe": [('Shroom Steak', 'Roast Shroom Dish'),
+    "Dyllis Deluxe": 
+    [('Shroom Steak', 'Roast Shroom Dish'),
      ('Fruity Hamburger', 'Shroom Steak'),
      ('Gorgeous Steak', 'Shroom Steak'),
      ('Hot Dog', 'Shroom Steak'),
@@ -466,7 +477,8 @@ recipes = {
      ('Miracle Dinner', 'Ultra Shroom Shake'),
      ('Miracle Dinner', 'Shroom Steak')],
 
-    "Dyllis Dinner": [('Roast Shroom Dish', 'Fried Shroom Plate'),
+    "Dyllis Dinner": 
+    [('Roast Shroom Dish', 'Fried Shroom Plate'),
      ('Shroom Steak', 'Ultra Shroom Shake'),
      ('Shroom Delicacy', 'Roast Shroom Dish'),
      ('Volcano Shroom', 'Roast Shroom Dish'),
@@ -567,13 +579,15 @@ recipes = {
      ('Koopa Pilaf', 'Golden Meal'),
      ('Koopa Pilaf', 'Primordial Dinner')],
 
-    "Dyllis Dynamite": [('Egg Bomb', 'Dyllis Breakfast'),
+    "Dyllis Dynamite": 
+    [('Egg Bomb', 'Dyllis Breakfast'),
      ('Egg Bomb', 'Dyllis Lunch'),
      ('Egg Bomb', 'Dyllis Dinner'),
      ('Egg Bomb', 'Dyllis Special'),
      ('Egg Bomb', 'Dyllis Deluxe')],
 
-    "Dyllis Lunch": [('Fried Shroom Plate', 'Ultra Shroom Shake'),
+    "Dyllis Lunch": 
+    [('Fried Shroom Plate', 'Ultra Shroom Shake'),
      ('Roast Shroom Dish', 'Ultra Shroom Shake'),
      ('Shroom Steak', 'Shroom Shake'),
      ('Shroom Steak', 'Long-Last Shake'),
@@ -856,7 +870,8 @@ recipes = {
      ('Koopa Pilaf', 'Roast Whacka Bump'),
      ('Koopa Pilaf', 'Spicy Dinner')],
 
-    "Dyllis Special": [('Shroom Steak', 'Fried Shroom Plate'),
+    "Dyllis Special": 
+    [('Shroom Steak', 'Fried Shroom Plate'),
      ('Shroom Delicacy', 'Shroom Steak'),
      ('Volcano Shroom', 'Shroom Steak'),
      ('Omelette Plate', 'Shroom Steak'),
@@ -916,14 +931,16 @@ recipes = {
      ('Koopa Pilaf', 'Shroom Steak'),
      ('Koopa Pilaf', 'Miracle Dinner')],
 
-    "Egg Bomb": [('Big Egg', 'Fire Burst'),
+    "Egg Bomb": 
+    [('Big Egg', 'Fire Burst'),
      ('Big Egg', 'Thunder Rage'),
      ('Big Egg', 'POW Block'),
      ('Volcano Shroom', 'Big Egg'),
      ('Megaton Dinner', 'Big Egg'),
      ('Dyllis Dynamite', 'Big Egg')],
 
-    "Electro Pop": [('Thunder Rage', ''),
+    "Electro Pop": 
+    [('Thunder Rage', ''),
      ('Cake Mix', 'Thunder Rage'),
      ('Peachy Peach', 'Thunder Rage'),
      ('Keel Mango', 'Thunder Rage'),
@@ -955,7 +972,8 @@ recipes = {
      ('Sap Syrup', 'Thunder Rage'),
      ('Sap Syrup', 'Volt Shroom')],
 
-    "Emergency Ration": [('Shroom Shake', 'Fire Burst'),
+    "Emergency Ration": 
+    [('Shroom Shake', 'Fire Burst'),
      ('Long-Last Shake', 'Fire Burst'),
      ('Volt Shroom', 'Fire Burst'),
      ('Super Shroom Shake', 'Fire Burst'),
@@ -984,16 +1002,19 @@ recipes = {
      ('Whacka Bump', 'Fire Burst'),
      ('Horsetail', 'Fire Burst')],
 
-    "Fire Burst": [('Hot Sauce', ''),
+    "Fire Burst": 
+    [('Hot Sauce', ''),
      ('Spicy Pasta Dish', 'Hot Sauce'),
      ('Spicy Dinner', 'Hot Sauce'),
      ('Spicy Dinner', 'Spicy Pasta Dish'),
      ('Egg Bomb', 'Hot Sauce'),
      ('Dyllis Dynamite', 'Hot Sauce')],
 
-    "Fried Egg": [('Big Egg', '')],
+    "Fried Egg": 
+    [('Big Egg', '')],
 
-    "Fried Shroom Plate": [('Shroom Shake', ''),
+    "Fried Shroom Plate": 
+    [('Shroom Shake', ''),
      ('Long-Last Shake', ''),
      ('Volt Shroom', ''),
      ('Long-Last Shake', 'Shroom Shake'),
@@ -1003,7 +1024,8 @@ recipes = {
      ('Slimy Shroom', 'Long-Last Shake'),
      ('Slimy Shroom', 'Volt Shroom')],
 
-    "Fruit Parfait": [('Shroom Pudding', 'Peachy Peach'),
+    "Fruit Parfait": 
+    [('Shroom Pudding', 'Peachy Peach'),
      ('Shroom Pudding', 'Blue Apple'),
      ('Shroom Pudding', 'Yellow Apple'),
      ('Shroom Pudding', 'Red Apple'),
@@ -1047,7 +1069,8 @@ recipes = {
      ("Couple's Cake", 'Pink Apple'),
      ("Couple's Cake", 'Primordial Fruit')],
 
-    "Fruity Cake": [('Blue Apple', 'Cake Mix'),
+    "Fruity Cake": 
+    [('Blue Apple', 'Cake Mix'),
      ('Yellow Apple', 'Cake Mix'),
      ('Red Apple', 'Cake Mix'),
      ('Pink Apple', 'Cake Mix'),
@@ -1116,7 +1139,8 @@ recipes = {
      ('Horsetail Tart', 'Pink Apple'),
      ('Horsetail Tart', 'Primordial Fruit')],
 
-    "Fruity Hamburger": [('Peachy Peach', 'Power Steak'),
+    "Fruity Hamburger": 
+    [('Peachy Peach', 'Power Steak'),
      ('Peachy Peach', 'Bone-In Cut'),
      ('Keel Mango', 'Power Steak'),
      ('Keel Mango', 'Bone-In Cut'),
@@ -1140,7 +1164,8 @@ recipes = {
      ('Hot Dog', 'Primordial Fruit'),
      ('Spit Roast', 'Primordial Fruit')],
 
-    "Fruity Punch": [('Keel Mango', 'Peachy Peach'),
+    "Fruity Punch": 
+    [('Keel Mango', 'Peachy Peach'),
      ('Blue Apple', 'Mighty Tonic'),
      ('Blue Apple', 'Peachy Peach'),
      ('Blue Apple', 'Keel Mango'),
@@ -1226,7 +1251,8 @@ recipes = {
      ('Sap Syrup', 'Red Apple'),
      ('Sap Syrup', 'Pink Apple')],
 
-    "Fruity Shroom": [('Peachy Peach', 'Shroom Shake'),
+    "Fruity Shroom": 
+    [('Peachy Peach', 'Shroom Shake'),
      ('Peachy Peach', 'Volt Shroom'),
      ('Peachy Peach', 'Super Shroom Shake'),
      ('Peachy Peach', 'Life Shroom'),
@@ -1283,7 +1309,8 @@ recipes = {
      ('Sky Juice', 'Ultra Shroom Shake'),
      ('Sky Juice', 'Slimy Shroom')],
 
-    "Gingerbread House": [('Shroom Cake', 'Mushroom Crepe'),
+    "Gingerbread House": 
+    [('Shroom Cake', 'Mushroom Crepe'),
      ('Chocolate Cake', 'Honey Super'),
      ('Chocolate Cake', 'Shroom Cake'),
      ('Mousse', 'Honey Super'),
@@ -1312,9 +1339,11 @@ recipes = {
      ('Horsetail Tart', 'Heartful Cake'),
      ('Horsetail Tart', 'Peach Tart')],
 
-    "Gold Bar": [('Golden Leaf', '')],
+    "Gold Bar": 
+    [('Golden Leaf', '')],
 
-    "Golden Choco-bar": [('Mild Cocoa Bean', 'Power Steak'),
+    "Golden Choco-bar": 
+    [('Mild Cocoa Bean', 'Power Steak'),
      ('Mild Cocoa Bean', 'Bone-In Cut'),
      ('Golden Leaf', 'Mild Cocoa Bean'),
      ('Lovely Chocolate', 'Gold Bar'),
@@ -1330,7 +1359,8 @@ recipes = {
      ('Shroom Choco-bar', 'Gold Bar x3'),
      ('Shroom Choco-bar', 'Golden Leaf')],
 
-    "Golden Meal": [('Gold Bar', ''),
+    "Golden Meal": 
+    [('Gold Bar', ''),
      ('Gold Bar x3', ''),
      ('Shroom Shake', 'Gold Bar'),
      ('Shroom Shake', 'Gold Bar x3'),
@@ -1386,7 +1416,8 @@ recipes = {
      ('Shroom Steak', 'Golden Leaf'),
      ('Shroom Delicacy', 'Golden Leaf')],
 
-    "Gorgeous Steak": [('Bone-In Cut', 'Power Steak'),
+    "Gorgeous Steak": 
+    [('Bone-In Cut', 'Power Steak'),
      ('Hamburger', 'Power Steak'),
      ('Hamburger', 'Bone-In Cut'),
      ('Fruity Hamburger', 'Power Steak'),
@@ -1394,7 +1425,8 @@ recipes = {
      ('Spit Roast', 'Power Steak'),
      ('Spit Roast', 'Bone-In Cut')],
 
-    "Gradual Syrup": [('Peachy Peach', 'Long-Last Shake'),
+    "Gradual Syrup": 
+    [('Peachy Peach', 'Long-Last Shake'),
      ('Keel Mango', 'Long-Last Shake'),
      ('Blue Apple', 'Long-Last Shake'),
      ('Yellow Apple', 'Long-Last Shake'),
@@ -1425,7 +1457,8 @@ recipes = {
      ('Sap Syrup', 'Ultra Shroom Shake'),
      ('Sap Syrup', 'Slimy Shroom')],
 
-    "Hamburger": [('Power Steak', ''),
+    "Hamburger": 
+    [('Power Steak', ''),
      ('Power Steak', 'Shroom Shake'),
      ('Power Steak', 'Long-Last Shake'),
      ('Power Steak', 'Volt Shroom'),
@@ -1441,7 +1474,8 @@ recipes = {
      ('Hot Dog', 'Power Steak'),
      ('Hot Dog', 'Bone-In Cut')],
 
-    "Healthy Salad": [('Fresh Veggie', ''),
+    "Healthy Salad": 
+    [('Fresh Veggie', ''),
      ('Fresh Veggie', 'Shroom Shake'),
      ('Fresh Veggie', 'Long-Last Shake'),
      ('Fresh Veggie', 'Volt Shroom'),
@@ -1462,7 +1496,8 @@ recipes = {
      ('Whacka Bump', 'Fresh Veggie'),
      ('Horsetail', 'Fresh Veggie')],
 
-    "Heartful Cake": [('Lovely Chocolate', 'Cake Mix'),
+    "Heartful Cake": 
+    [('Lovely Chocolate', 'Cake Mix'),
      ('Mushroom Crepe', 'Lovely Chocolate'),
      ('Shroom Cake', 'Lovely Chocolate'),
      ('Chocolate Cake', 'Lovely Chocolate'),
@@ -1479,7 +1514,8 @@ recipes = {
      ('Slimy Extract', 'Peach Tart'),
      ('Slimy Extract', 'Horsetail Tart')],
 
-    "Heavy Meal": [('Volt Shroom', 'Thunder Rage'),
+    "Heavy Meal": 
+    [('Volt Shroom', 'Thunder Rage'),
      ('Honey Shroom', 'Honey Jar'),
      ('Honey Super', 'Honey Jar'),
      ('Honey Candy', 'Honey Jar'),
@@ -1504,7 +1540,8 @@ recipes = {
      ('Meteor Meal', 'Shooting Star'),
      ('Megaton Dinner', 'POW Block')],
 
-    "Herb Tea": [('Smelly Herb', ''),
+    "Herb Tea": 
+    [('Smelly Herb', ''),
      ('Smelly Herb', 'Peachy Peach'),
      ('Smelly Herb', 'Keel Mango'),
      ('Smelly Herb', 'Blue Apple'),
@@ -1517,7 +1554,8 @@ recipes = {
      ('Warm Cocoa', 'Smelly Herb'),
      ('Koopa Tea', 'Smelly Herb')],
 
-    "Honey Candy": [('Honey Jar', ''),
+    "Honey Candy": 
+    [('Honey Jar', ''),
      ('Honey Jar', 'Peachy Peach'),
      ('Honey Jar', 'Keel Mango'),
      ('Honey Jar', 'Blue Apple'),
@@ -1533,7 +1571,8 @@ recipes = {
      ('Dayzee Syrup', 'Honey Jar'),
      ('Sap Syrup', 'Honey Jar')],
 
-    "Honey Shroom": [('Honey Jar', 'Shroom Shake'),
+    "Honey Shroom": 
+    [('Honey Jar', 'Shroom Shake'),
      ('Honey Jar', 'Volt Shroom'),
      ('Shroom Broth', 'Honey Jar'),
      ('Honey Candy', 'Shroom Shake'),
@@ -1542,7 +1581,8 @@ recipes = {
      ('Fruity Shroom', 'Honey Jar'),
      ('Volcano Shroom', 'Honey Jar')],
 
-    "Honey Super": [('Honey Jar', 'Super Shroom Shake'),
+    "Honey Super": 
+    [('Honey Jar', 'Super Shroom Shake'),
      ('Honey Jar', 'Life Shroom'),
      ('Honey Jar', 'Ultra Shroom Shake'),
      ('Honey Jar', 'Slimy Shroom'),
@@ -1550,7 +1590,8 @@ recipes = {
      ('Honey Candy', 'Life Shroom'),
      ('Honey Candy', 'Ultra Shroom Shake')],
 
-    "Horsetail Tart": [('Horsetail', 'Cake Mix'),
+    "Horsetail Tart": 
+    [('Horsetail', 'Cake Mix'),
      ('Horsetail', 'Peachy Peach'),
      ('Horsetail', 'Keel Mango'),
      ('Horsetail', 'Blue Apple'),
@@ -1571,7 +1612,8 @@ recipes = {
      ('Heartful Cake', 'Horsetail'),
      ('Peach Tart', 'Horsetail')],
 
-    "Hot Dog": [('Power Steak', 'Cake Mix'),
+    "Hot Dog": 
+    [('Power Steak', 'Cake Mix'),
      ('Power Steak', 'Big Egg'),
      ('Bone-In Cut', 'Cake Mix'),
      ('Bone-In Cut', 'Big Egg'),
@@ -1585,7 +1627,8 @@ recipes = {
      ('Gorgeous Steak', 'Big Egg'),
      ('Spit Roast', 'Big Egg')],
 
-    "Ink Pasta Dish": [('Inky Sauce', 'Fresh Pasta Bunch'),
+    "Ink Pasta Dish": 
+    [('Inky Sauce', 'Fresh Pasta Bunch'),
      ('Spaghetti Plate', 'Inky Sauce'),
      ('Meat Pasta Dish', 'Inky Sauce'),
      ('Spicy Pasta Dish', 'Inky Sauce'),
@@ -1600,7 +1643,8 @@ recipes = {
      ('Inky Soup', 'Choco Pasta Dish'),
      ('Inky Soup', 'Love Noodle Dish')],
 
-    "Inky Soup": [('Inky Sauce', ''),
+    "Inky Soup": 
+    [('Inky Sauce', ''),
      ('Inky Sauce', 'Shroom Shake'),
      ('Inky Sauce', 'Long-Last Shake'),
      ('Inky Sauce', 'Volt Shroom'),
@@ -1614,7 +1658,8 @@ recipes = {
      ('Turtley Leaf', 'Inky Sauce'),
      ('Horsetail', 'Inky Sauce')],
 
-    "Koopa Dumpling": [('Turtley Leaf', 'Shroom Shake'),
+    "Koopa Dumpling": 
+    [('Turtley Leaf', 'Shroom Shake'),
      ('Turtley Leaf', 'Volt Shroom'),
      ('Turtley Leaf', 'Super Shroom Shake'),
      ('Turtley Leaf', 'Life Shroom'),
@@ -1625,13 +1670,15 @@ recipes = {
      ('Town Special', 'Turtley Leaf'),
      ('Sap Muffin', 'Turtley Leaf')],
 
-    "Koopa Pilaf": [('Turtley Leaf', 'Power Steak'),
+    "Koopa Pilaf": 
+    [('Turtley Leaf', 'Power Steak'),
      ('Turtley Leaf', 'Bone-In Cut'),
      ('Turtley Leaf', 'Hot Sauce'),
      ('Turtley Leaf', 'Fresh Veggie'),
      ('Horsetail', 'Turtley Leaf')],
 
-    "Koopa Tea": [('Turtley Leaf', ''),
+    "Koopa Tea": 
+    [('Turtley Leaf', ''),
      ('Turtley Leaf', 'Peachy Peach'),
      ('Turtley Leaf', 'Keel Mango'),
      ('Turtley Leaf', 'Blue Apple'),
@@ -1646,7 +1693,8 @@ recipes = {
      ('Warm Cocoa', 'Turtley Leaf'),
      ('Herb Tea', 'Turtley Leaf')],
 
-    "Koopasta Dish": [('Turtley Leaf', 'Fresh Pasta Bunch'),
+    "Koopasta Dish": 
+    [('Turtley Leaf', 'Fresh Pasta Bunch'),
      ('Koopa Dumpling', 'Fresh Pasta Bunch'),
      ('Koopa Tea', 'Fresh Pasta Bunch'),
      ('Spaghetti Plate', 'Turtley Leaf'),
@@ -1675,14 +1723,16 @@ recipes = {
      ('Koopa Pilaf', 'Choco Pasta Dish'),
      ('Koopa Pilaf', 'Love Noodle Dish')],
 
-    "Life Shroom": [('Slimy Extract', 'Shroom Shake'),
+    "Life Shroom": 
+    [('Slimy Extract', 'Shroom Shake'),
      ('Slimy Extract', 'Long-Last Shake'),
      ('Slimy Extract', 'Volt Shroom'),
      ('Slimy Extract', 'Super Shroom Shake'),
      ('Slimy Extract', 'Ultra Shroom Shake'),
      ('Slimy Extract', 'Slimy Shroom')],
 
-    "Love Noodle Dish": [('Lovely Chocolate', 'Fresh Pasta Bunch'),
+    "Love Noodle Dish": 
+    [('Lovely Chocolate', 'Fresh Pasta Bunch'),
      ('Slimy Extract', 'Fresh Pasta Bunch'),
      ('Spaghetti Plate', 'Lovely Chocolate'),
      ('Spaghetti Plate', 'Heartful Cake'),
@@ -1703,7 +1753,8 @@ recipes = {
      ('Choco Pasta Dish', 'Heartful Cake'),
      ('Choco Pasta Dish', 'Slimy Extract')],
 
-    "Love Pudding": [('Big Egg', 'Poison Shroom'),
+    "Love Pudding": 
+    [('Big Egg', 'Poison Shroom'),
      ('Lovely Chocolate', 'Big Egg'),
      ('Shroom Pudding', 'Ghost Shroom'),
      ('Shroom Pudding', 'Poison Shroom'),
@@ -1713,7 +1764,8 @@ recipes = {
      ('Slimy Extract', 'Shroom Pudding'),
      ('Slimy Extract', 'Mango Pudding')],
 
-    "Lovely Chocolate": [('Mild Cocoa Bean', 'Fire Burst'),
+    "Lovely Chocolate": 
+    [('Mild Cocoa Bean', 'Fire Burst'),
      ('Mild Cocoa Bean', 'HP Plus'),
      ('Whacka Bump', 'Mild Cocoa Bean'),
      ('Standard Chocolate', 'HP Plus'),
@@ -1726,7 +1778,8 @@ recipes = {
      ('Slimy Extract', 'Shroom Choco-bar'),
      ('Slimy Extract', 'Golden Choco-bar')],
 
-    "Luxurious Set": [('Dyllis Dinner', 'Fried Shroom Plate'),
+    "Luxurious Set": 
+    [('Dyllis Dinner', 'Fried Shroom Plate'),
      ('Dyllis Dinner', 'Roast Shroom Dish'),
      ('Dyllis Dinner', 'Shroom Steak'),
      ('Dyllis Dinner', 'Shroom Delicacy'),
@@ -1820,10 +1873,12 @@ recipes = {
      ('Dyllis Deluxe', 'Miracle Dinner'),
      ('Dyllis Deluxe', 'Koopa Pilaf')],
 
-    "Mango Juice": [('Keel Mango', ''),
+    "Mango Juice": 
+    [('Keel Mango', ''),
      ('Keel Mango', 'Mighty Tonic')],
 
-    "Mango Pudding": [('Keel Mango', 'Cake Mix'),
+    "Mango Pudding": 
+    [('Keel Mango', 'Cake Mix'),
      ('Keel Mango', 'Big Egg'),
      ('Shroom Pudding', 'Keel Mango'),
      ('Love Pudding', 'Keel Mango'),
@@ -1832,7 +1887,8 @@ recipes = {
      ('Mango Juice', 'Shroom Pudding'),
      ('Mango Juice', 'Love Pudding')],
 
-    "Meat Pasta Dish": [('Power Steak', 'Fresh Pasta Bunch'),
+    "Meat Pasta Dish": 
+    [('Power Steak', 'Fresh Pasta Bunch'),
      ('Bone-In Cut', 'Fresh Pasta Bunch'),
      ('Hamburger', 'Fresh Pasta Bunch'),
      ('Fruity Hamburger', 'Fresh Pasta Bunch'),
@@ -1850,7 +1906,8 @@ recipes = {
      ('Love Noodle Dish', 'Power Steak'),
      ('Love Noodle Dish', 'Bone-In Cut')],
 
-    "Megaton Dinner": [('POW Block', ''),
+    "Megaton Dinner": 
+    [('POW Block', ''),
      ('Shroom Shake', 'POW Block'),
      ('Long-Last Shake', 'POW Block'),
      ('Volt Shroom', 'POW Block'),
@@ -1892,7 +1949,8 @@ recipes = {
      ('Miracle Dinner', 'POW Block'),
      ('Koopa Pilaf', 'POW Block')],
 
-    "Meteor Meal": [('Shooting Star', ''),
+    "Meteor Meal": 
+    [('Shooting Star', ''),
      ('Shroom Shake', 'Shooting Star'),
      ('Long-Last Shake', 'Shooting Star'),
      ('Volt Shroom', 'Shooting Star'),
@@ -1936,9 +1994,9 @@ recipes = {
      ('Koopa Pilaf', 'Shooting Star')],
 
     "Mistake (Sleepy Sheep)"
-    : [('Sleepy Sleep', ''),
-     ('Mistake (Sleepy Sheep)'
-    , ''),
+    : 
+    [('Sleepy Sleep', ''),
+     ('Mistake (Sleepy Sheep)', ''),
      ('Sleepy Sleep', 'Fire Burst'),
      ('Sleepy Sleep', 'Ice Storm'),
      ('Sleepy Sleep', 'Thunder Rage'),
@@ -2087,302 +2145,156 @@ recipes = {
      ('Dangerous Delight', 'Sleepy Sleep'),
      ('Trial Stew', 'Sleepy Sleep'),
      ('Mistake', 'Sleepy Sleep'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fire Burst'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Ice Storm'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Thunder Rage'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shooting Star'),
-     ('Mistake (Sleepy Sheep)'
-    , 'POW Block'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Block Block'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Courage Shell'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Mighty Tonic'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shell Shock'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Sleepy Sleep'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Stop Watch'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Catch Card'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Catch Card SP'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Star Medal'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Gold Medal'),
-     ('Mistake (Sleepy Sheep)'
-    , 'HP Plus'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Power Plus'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Gold Bar'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Gold Bar x3'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shroom Shake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Long-Last Shake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Volt Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Super Shroom Shake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Life Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Ultra Shroom Shake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Slimy Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Ghost Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Poison Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Cake Mix'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Big Egg'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fresh Pasta Bunch'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Power Steak'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Bone-In Cut'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Peachy Peach'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Keel Mango'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Blue Apple'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Yellow Apple'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Red Apple'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Pink Apple'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Black Apple'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Primordial Fruit'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Mild Cocoa Bean'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Honey Jar'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Hot Sauce'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Inky Sauce'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dayzee Tear'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Sap Soup'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fresh Veggie'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Turtley Leaf'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Smelly Herb'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Golden Leaf'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Whacka Bump'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Horsetail'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Sweet Cookie Snack'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Honey Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Honey Super'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shroom Broth'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Honey Candy'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Electro Pop'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Awesome Snack'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Koopa Dumpling'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Town Special'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Sap Muffin'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Lovely Chocolate'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Standard Chocolate'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Sweet Choco-bar'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shroom Choco-bar'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Golden Choco-bar'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Mushroom Crepe'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shroom Cake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Chocolate Cake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Mousse'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fruity Cake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Heartful Cake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Peach Tart'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Horsetail Tart'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Gingerbread House'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shroom Pudding'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Mango Pudding'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Love Pudding'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fruity Punch'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Snow Cone'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fruit Parfait'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Snow Bunny'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Berry Snow Bunny'),
-     ('Mistake (Sleepy Sheep)'
-    , "Couple's Cake"),
-     ('Mistake (Sleepy Sheep)'
-    , 'Peach Juice'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Mango Juice'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Sky Juice'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Mixed Shake'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Warm Cocoa'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Herb Tea'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Koopa Tea'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Stamina Juice'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Gradual Syrup'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dayzee Syrup'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Sap Syrup'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Slimy Extract'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Weird Extract'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fried Shroom Plate'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Roast Shroom Dish'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shroom Steak'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Shroom Delicacy'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fruity Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Volcano Shroom'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fried Egg'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Omelette Plate'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Hamburger'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Fruity Hamburger'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Gorgeous Steak'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Hot Dog'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Spit Roast'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Healthy Salad'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Veggie Set'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Spaghetti Plate'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Meat Pasta Dish'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Spicy Pasta Dish'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Ink Pasta Dish'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Koopasta Dish'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Choco Pasta Dish'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Love Noodle Dish'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Roast Horsetail'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Roast Whacka Bump'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Spicy Soup'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Inky Soup'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Spicy Dinner'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Golden Meal'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Block Meal'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Primordial Dinner'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Miracle Dinner'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Koopa Pilaf'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dyllis Breakfast'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dyllis Lunch'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dyllis Dinner'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dyllis Special'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dyllis Deluxe'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Meteor Meal'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Megaton Dinner'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Luxurious Set'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Space Food'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Emergency Ration'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Egg Bomb'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dyllis Dynamite'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Odd Dinner'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Heavy Meal'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Dangerous Delight'),
-     ('Mistake (Sleepy Sheep)'
-    , 'Trial Stew')],
+     ('Mistake (Sleepy Sheep)', 'Fire Burst'),
+     ('Mistake (Sleepy Sheep)', 'Ice Storm'),
+     ('Mistake (Sleepy Sheep)', 'Thunder Rage'),
+     ('Mistake (Sleepy Sheep)', 'Shooting Star'),
+     ('Mistake (Sleepy Sheep)', 'POW Block'),
+     ('Mistake (Sleepy Sheep)', 'Block Block'),
+     ('Mistake (Sleepy Sheep)', 'Courage Shell'),
+     ('Mistake (Sleepy Sheep)', 'Mighty Tonic'),
+     ('Mistake (Sleepy Sheep)', 'Shell Shock'),
+     ('Mistake (Sleepy Sheep)', 'Sleepy Sleep'),
+     ('Mistake (Sleepy Sheep)', 'Stop Watch'),
+     ('Mistake (Sleepy Sheep)', 'Catch Card'),
+     ('Mistake (Sleepy Sheep)', 'Catch Card SP'),
+     ('Mistake (Sleepy Sheep)', 'Star Medal'),
+     ('Mistake (Sleepy Sheep)', 'Gold Medal'),
+     ('Mistake (Sleepy Sheep)', 'HP Plus'),
+     ('Mistake (Sleepy Sheep)', 'Power Plus'),
+     ('Mistake (Sleepy Sheep)', 'Gold Bar'),
+     ('Mistake (Sleepy Sheep)', 'Gold Bar x3'),
+     ('Mistake (Sleepy Sheep)', 'Shroom Shake'),
+     ('Mistake (Sleepy Sheep)', 'Long-Last Shake'),
+     ('Mistake (Sleepy Sheep)', 'Volt Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Super Shroom Shake'),
+     ('Mistake (Sleepy Sheep)', 'Life Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Ultra Shroom Shake'),
+     ('Mistake (Sleepy Sheep)', 'Slimy Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Ghost Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Poison Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Cake Mix'),
+     ('Mistake (Sleepy Sheep)', 'Big Egg'),
+     ('Mistake (Sleepy Sheep)', 'Fresh Pasta Bunch'),
+     ('Mistake (Sleepy Sheep)', 'Power Steak'),
+     ('Mistake (Sleepy Sheep)', 'Bone-In Cut'),
+     ('Mistake (Sleepy Sheep)', 'Peachy Peach'),
+     ('Mistake (Sleepy Sheep)', 'Keel Mango'),
+     ('Mistake (Sleepy Sheep)', 'Blue Apple'),
+     ('Mistake (Sleepy Sheep)', 'Yellow Apple'),
+     ('Mistake (Sleepy Sheep)', 'Red Apple'),
+     ('Mistake (Sleepy Sheep)', 'Pink Apple'),
+     ('Mistake (Sleepy Sheep)', 'Black Apple'),
+     ('Mistake (Sleepy Sheep)', 'Primordial Fruit'),
+     ('Mistake (Sleepy Sheep)', 'Mild Cocoa Bean'),
+     ('Mistake (Sleepy Sheep)', 'Honey Jar'),
+     ('Mistake (Sleepy Sheep)', 'Hot Sauce'),
+     ('Mistake (Sleepy Sheep)', 'Inky Sauce'),
+     ('Mistake (Sleepy Sheep)', 'Dayzee Tear'),
+     ('Mistake (Sleepy Sheep)', 'Sap Soup'),
+     ('Mistake (Sleepy Sheep)', 'Fresh Veggie'),
+     ('Mistake (Sleepy Sheep)', 'Turtley Leaf'),
+     ('Mistake (Sleepy Sheep)', 'Smelly Herb'),
+     ('Mistake (Sleepy Sheep)', 'Golden Leaf'),
+     ('Mistake (Sleepy Sheep)', 'Whacka Bump'),
+     ('Mistake (Sleepy Sheep)', 'Horsetail'),
+     ('Mistake (Sleepy Sheep)', 'Sweet Cookie Snack'),
+     ('Mistake (Sleepy Sheep)', 'Honey Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Honey Super'),
+     ('Mistake (Sleepy Sheep)', 'Shroom Broth'),
+     ('Mistake (Sleepy Sheep)', 'Honey Candy'),
+     ('Mistake (Sleepy Sheep)', 'Electro Pop'),
+     ('Mistake (Sleepy Sheep)', 'Awesome Snack'),
+     ('Mistake (Sleepy Sheep)', 'Koopa Dumpling'),
+     ('Mistake (Sleepy Sheep)', 'Town Special'),
+     ('Mistake (Sleepy Sheep)', 'Sap Muffin'),
+     ('Mistake (Sleepy Sheep)', 'Lovely Chocolate'),
+     ('Mistake (Sleepy Sheep)', 'Standard Chocolate'),
+     ('Mistake (Sleepy Sheep)', 'Sweet Choco-bar'),
+     ('Mistake (Sleepy Sheep)', 'Shroom Choco-bar'),
+     ('Mistake (Sleepy Sheep)', 'Golden Choco-bar'),
+     ('Mistake (Sleepy Sheep)', 'Mushroom Crepe'),
+     ('Mistake (Sleepy Sheep)', 'Shroom Cake'),
+     ('Mistake (Sleepy Sheep)', 'Chocolate Cake'),
+     ('Mistake (Sleepy Sheep)', 'Mousse'),
+     ('Mistake (Sleepy Sheep)', 'Fruity Cake'),
+     ('Mistake (Sleepy Sheep)', 'Heartful Cake'),
+     ('Mistake (Sleepy Sheep)', 'Peach Tart'),
+     ('Mistake (Sleepy Sheep)', 'Horsetail Tart'),
+     ('Mistake (Sleepy Sheep)', 'Gingerbread House'),
+     ('Mistake (Sleepy Sheep)', 'Shroom Pudding'),
+     ('Mistake (Sleepy Sheep)', 'Mango Pudding'),
+     ('Mistake (Sleepy Sheep)', 'Love Pudding'),
+     ('Mistake (Sleepy Sheep)', 'Fruity Punch'),
+     ('Mistake (Sleepy Sheep)', 'Snow Cone'),
+     ('Mistake (Sleepy Sheep)', 'Fruit Parfait'),
+     ('Mistake (Sleepy Sheep)', 'Snow Bunny'),
+     ('Mistake (Sleepy Sheep)', 'Berry Snow Bunny'),
+     ('Mistake (Sleepy Sheep)', "Couple's Cake"),
+     ('Mistake (Sleepy Sheep)', 'Peach Juice'),
+     ('Mistake (Sleepy Sheep)', 'Mango Juice'),
+     ('Mistake (Sleepy Sheep)', 'Sky Juice'),
+     ('Mistake (Sleepy Sheep)', 'Mixed Shake'),
+     ('Mistake (Sleepy Sheep)', 'Warm Cocoa'),
+     ('Mistake (Sleepy Sheep)', 'Herb Tea'),
+     ('Mistake (Sleepy Sheep)', 'Koopa Tea'),
+     ('Mistake (Sleepy Sheep)', 'Stamina Juice'),
+     ('Mistake (Sleepy Sheep)', 'Gradual Syrup'),
+     ('Mistake (Sleepy Sheep)', 'Dayzee Syrup'),
+     ('Mistake (Sleepy Sheep)', 'Sap Syrup'),
+     ('Mistake (Sleepy Sheep)', 'Slimy Extract'),
+     ('Mistake (Sleepy Sheep)', 'Weird Extract'),
+     ('Mistake (Sleepy Sheep)', 'Fried Shroom Plate'),
+     ('Mistake (Sleepy Sheep)', 'Roast Shroom Dish'),
+     ('Mistake (Sleepy Sheep)', 'Shroom Steak'),
+     ('Mistake (Sleepy Sheep)', 'Shroom Delicacy'),
+     ('Mistake (Sleepy Sheep)', 'Fruity Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Volcano Shroom'),
+     ('Mistake (Sleepy Sheep)', 'Fried Egg'),
+     ('Mistake (Sleepy Sheep)', 'Omelette Plate'),
+     ('Mistake (Sleepy Sheep)', 'Hamburger'),
+     ('Mistake (Sleepy Sheep)', 'Fruity Hamburger'),
+     ('Mistake (Sleepy Sheep)', 'Gorgeous Steak'),
+     ('Mistake (Sleepy Sheep)', 'Hot Dog'),
+     ('Mistake (Sleepy Sheep)', 'Spit Roast'),
+     ('Mistake (Sleepy Sheep)', 'Healthy Salad'),
+     ('Mistake (Sleepy Sheep)', 'Veggie Set'),
+     ('Mistake (Sleepy Sheep)', 'Spaghetti Plate'),
+     ('Mistake (Sleepy Sheep)', 'Meat Pasta Dish'),
+     ('Mistake (Sleepy Sheep)', 'Spicy Pasta Dish'),
+     ('Mistake (Sleepy Sheep)', 'Ink Pasta Dish'),
+     ('Mistake (Sleepy Sheep)', 'Koopasta Dish'),
+     ('Mistake (Sleepy Sheep)', 'Choco Pasta Dish'),
+     ('Mistake (Sleepy Sheep)', 'Love Noodle Dish'),
+     ('Mistake (Sleepy Sheep)', 'Roast Horsetail'),
+     ('Mistake (Sleepy Sheep)', 'Roast Whacka Bump'),
+     ('Mistake (Sleepy Sheep)', 'Spicy Soup'),
+     ('Mistake (Sleepy Sheep)', 'Inky Soup'),
+     ('Mistake (Sleepy Sheep)', 'Spicy Dinner'),
+     ('Mistake (Sleepy Sheep)', 'Golden Meal'),
+     ('Mistake (Sleepy Sheep)', 'Block Meal'),
+     ('Mistake (Sleepy Sheep)', 'Primordial Dinner'),
+     ('Mistake (Sleepy Sheep)', 'Miracle Dinner'),
+     ('Mistake (Sleepy Sheep)', 'Koopa Pilaf'),
+     ('Mistake (Sleepy Sheep)', 'Dyllis Breakfast'),
+     ('Mistake (Sleepy Sheep)', 'Dyllis Lunch'),
+     ('Mistake (Sleepy Sheep)', 'Dyllis Dinner'),
+     ('Mistake (Sleepy Sheep)', 'Dyllis Special'),
+     ('Mistake (Sleepy Sheep)', 'Dyllis Deluxe'),
+     ('Mistake (Sleepy Sheep)', 'Meteor Meal'),
+     ('Mistake (Sleepy Sheep)', 'Megaton Dinner'),
+     ('Mistake (Sleepy Sheep)', 'Luxurious Set'),
+     ('Mistake (Sleepy Sheep)', 'Space Food'),
+     ('Mistake (Sleepy Sheep)', 'Emergency Ration'),
+     ('Mistake (Sleepy Sheep)', 'Egg Bomb'),
+     ('Mistake (Sleepy Sheep)', 'Dyllis Dynamite'),
+     ('Mistake (Sleepy Sheep)', 'Odd Dinner'),
+     ('Mistake (Sleepy Sheep)', 'Heavy Meal'),
+     ('Mistake (Sleepy Sheep)', 'Dangerous Delight'),
+     ('Mistake (Sleepy Sheep)', 'Trial Stew')],
 
-    "Mixed Shake": [('Peach Juice', 'Mighty Tonic'),
+    "Mixed Shake": 
+    [('Peach Juice', 'Mighty Tonic'),
      ('Mango Juice', 'Mighty Tonic'),
      ('Mango Juice', 'Peach Juice'),
      ('Sky Juice', 'Mighty Tonic'),
@@ -2414,7 +2326,8 @@ recipes = {
      ('Sap Syrup', 'Gradual Syrup'),
      ('Sap Syrup', 'Dayzee Syrup')],
 
-    "Mousse": [('Big Egg', 'Cake Mix'),
+    "Mousse": 
+    [('Big Egg', 'Cake Mix'),
      ('Honey Jar', 'Cake Mix'),
      ('Honey Jar', 'Big Egg'),
      ('Sweet Cookie Snack', 'Cake Mix'),
@@ -2429,7 +2342,8 @@ recipes = {
      ('Koopa Dumpling', 'Honey Jar'),
      ('Town Special', 'Honey Jar')],
 
-    "Mushroom Crepe": [('Cake Mix', 'Shroom Shake'),
+    "Mushroom Crepe": 
+    [('Cake Mix', 'Shroom Shake'),
      ('Cake Mix', 'Long-Last Shake'),
      ('Cake Mix', 'Volt Shroom'),
      ('Cake Mix', 'Slimy Shroom'),
@@ -2463,7 +2377,8 @@ recipes = {
      ('Fruity Shroom', 'Cake Mix'),
      ('Fruity Shroom', 'Big Egg')],
 
-    "Odd Dinner": [('Fried Shroom Plate', 'Ghost Shroom'),
+    "Odd Dinner": 
+    [('Fried Shroom Plate', 'Ghost Shroom'),
      ('Fried Shroom Plate', 'Poison Shroom'),
      ('Fried Shroom Plate', 'Black Apple'),
      ('Roast Shroom Dish', 'Ghost Shroom'),
@@ -2554,7 +2469,8 @@ recipes = {
      ('Koopa Pilaf', 'Poison Shroom'),
      ('Koopa Pilaf', 'Black Apple')],
 
-    "Omelette Plate": [('Blue Apple', 'Big Egg'),
+    "Omelette Plate": 
+    [('Blue Apple', 'Big Egg'),
      ('Yellow Apple', 'Big Egg'),
      ('Red Apple', 'Big Egg'),
      ('Pink Apple', 'Big Egg'),
@@ -2568,10 +2484,12 @@ recipes = {
      ('Veggie Set', 'Big Egg'),
      ('Roast Horsetail', 'Big Egg')],
 
-    "Peach Juice": [('Peachy Peach', ''),
+    "Peach Juice": 
+    [('Peachy Peach', ''),
      ('Peachy Peach', 'Mighty Tonic')],
 
-    "Peach Tart": [('Peachy Peach', 'Cake Mix'),
+    "Peach Tart": 
+    [('Peachy Peach', 'Cake Mix'),
      ('Peachy Peach', 'Big Egg'),
      ('Sweet Cookie Snack', 'Peachy Peach'),
      ('Awesome Snack', 'Peachy Peach'),
@@ -2579,7 +2497,8 @@ recipes = {
      ('Peach Juice', 'Cake Mix'),
      ('Peach Juice', 'Big Egg')],
 
-    "Primordial Dinner": [('Primordial Fruit', 'Shroom Shake'),
+    "Primordial Dinner": 
+    [('Primordial Fruit', 'Shroom Shake'),
      ('Primordial Fruit', 'Volt Shroom'),
      ('Primordial Fruit', 'Super Shroom Shake'),
      ('Primordial Fruit', 'Life Shroom'),
@@ -2590,7 +2509,8 @@ recipes = {
      ('Primordial Fruit', 'Bone-In Cut'),
      ('Town Special', 'Primordial Fruit')],
 
-    "Roast Horsetail": [('Horsetail', ''),
+    "Roast Horsetail": 
+    [('Horsetail', ''),
      ('Horsetail', 'Shroom Shake'),
      ('Horsetail', 'Long-Last Shake'),
      ('Horsetail', 'Volt Shroom'),
@@ -2599,7 +2519,8 @@ recipes = {
      ('Horsetail', 'Ultra Shroom Shake'),
      ('Horsetail', 'Slimy Shroom')],
 
-    "Roast Shroom Dish": [('Super Shroom Shake', ''),
+    "Roast Shroom Dish": 
+    [('Super Shroom Shake', ''),
      ('Life Shroom', ''),
      ('Super Shroom Shake', 'Shroom Shake'),
      ('Super Shroom Shake', 'Long-Last Shake'),
@@ -2611,14 +2532,16 @@ recipes = {
      ('Slimy Shroom', 'Super Shroom Shake'),
      ('Slimy Shroom', 'Life Shroom')],
 
-    "Roast Whacka Bump": [('Whacka Bump', ''),
+    "Roast Whacka Bump": 
+    [('Whacka Bump', ''),
      ('Whacka Bump', 'Cake Mix'),
      ('Whacka Bump', 'Honey Jar'),
      ('Whacka Bump', 'Inky Sauce'),
      ('Whacka Bump', 'Dayzee Tear'),
      ('Whacka Bump', 'Smelly Herb')],
 
-    "Sap Muffin": [('Sap Soup', 'Shroom Shake'),
+    "Sap Muffin": 
+    [('Sap Soup', 'Shroom Shake'),
      ('Sap Soup', 'Long-Last Shake'),
      ('Sap Soup', 'Volt Shroom'),
      ('Sap Soup', 'Super Shroom Shake'),
@@ -2632,7 +2555,8 @@ recipes = {
      ('Horsetail', 'Sap Soup'),
      ('Koopa Dumpling', 'Sap Soup')],
 
-    "Sap Syrup": [('Sap Soup', ''),
+    "Sap Syrup": 
+    [('Sap Soup', ''),
      ('Sap Soup', 'Peachy Peach'),
      ('Sap Soup', 'Keel Mango'),
      ('Sap Soup', 'Blue Apple'),
@@ -2643,7 +2567,8 @@ recipes = {
      ('Sap Soup', 'Mild Cocoa Bean'),
      ('Sap Soup', 'Honey Jar')],
 
-    "Shroom Broth": [('Smelly Herb', 'Shroom Shake'),
+    "Shroom Broth": 
+    [('Smelly Herb', 'Shroom Shake'),
      ('Smelly Herb', 'Volt Shroom'),
      ('Smelly Herb', 'Super Shroom Shake'),
      ('Smelly Herb', 'Life Shroom'),
@@ -2667,7 +2592,8 @@ recipes = {
      ('Koopa Tea', 'Slimy Shroom'),
      ('Fruity Shroom', 'Smelly Herb')],
 
-    "Shroom Cake": [('Cake Mix', 'Super Shroom Shake'),
+    "Shroom Cake": 
+    [('Cake Mix', 'Super Shroom Shake'),
      ('Cake Mix', 'Life Shroom'),
      ('Cake Mix', 'Ultra Shroom Shake'),
      ('Sweet Cookie Snack', 'Super Shroom Shake'),
@@ -2728,7 +2654,8 @@ recipes = {
      ('Fruity Shroom', 'Peach Tart'),
      ('Fruity Shroom', 'Horsetail Tart')],
 
-    "Shroom Choco-bar": [('Mild Cocoa Bean', 'Shroom Shake'),
+    "Shroom Choco-bar": 
+    [('Mild Cocoa Bean', 'Shroom Shake'),
      ('Mild Cocoa Bean', 'Long-Last Shake'),
      ('Mild Cocoa Bean', 'Volt Shroom'),
      ('Mild Cocoa Bean', 'Super Shroom Shake'),
@@ -2792,7 +2719,8 @@ recipes = {
      ('Fruity Shroom', 'Golden Choco-bar'),
      ('Volcano Shroom', 'Mild Cocoa Bean')],
 
-    "Shroom Delicacy": [('Dayzee Tear', 'Shroom Shake'),
+    "Shroom Delicacy": 
+    [('Dayzee Tear', 'Shroom Shake'),
      ('Dayzee Tear', 'Long-Last Shake'),
      ('Dayzee Tear', 'Volt Shroom'),
      ('Dayzee Tear', 'Super Shroom Shake'),
@@ -2833,9 +2761,11 @@ recipes = {
      ('Mango Pudding', 'Volt Shroom'),
      ('Mango Pudding', 'Super Shroom Shake')],
 
-    "Shroom Pudding": [('Mango Pudding', 'Life Shroom')],
+    "Shroom Pudding": 
+    [('Mango Pudding', 'Life Shroom')],
 
-    "Shroom Delicacy": [('Mango Pudding', 'Ultra Shroom Shake'),
+    "Shroom Delicacy": 
+    [('Mango Pudding', 'Ultra Shroom Shake'),
      ('Mango Pudding', 'Slimy Shroom'),
      ('Love Pudding', 'Shroom Shake'),
      ('Love Pudding', 'Long-Last Shake'),
@@ -2845,7 +2775,8 @@ recipes = {
      ('Love Pudding', 'Ultra Shroom Shake'),
      ('Love Pudding', 'Slimy Shroom')],
 
-    "Shroom Steak": [('Ultra Shroom Shake', ''),
+    "Shroom Steak": 
+    [('Ultra Shroom Shake', ''),
      ('Ultra Shroom Shake', 'Shroom Shake'),
      ('Ultra Shroom Shake', 'Long-Last Shake'),
      ('Ultra Shroom Shake', 'Volt Shroom'),
@@ -2853,19 +2784,23 @@ recipes = {
      ('Ultra Shroom Shake', 'Life Shroom'),
      ('Slimy Shroom', 'Ultra Shroom Shake')],
 
-    "Sky Juice": [('Blue Apple', ''),
+    "Sky Juice": 
+    [('Blue Apple', ''),
      ('Yellow Apple', ''),
      ('Red Apple', ''),
      ('Pink Apple', '')],
 
-    "Slimy Extract": [('Slimy Shroom', '')],
+    "Slimy Extract": 
+    [('Slimy Shroom', '')],
 
-    "Snow Bunny": [('Turtley Leaf', 'Ice Storm'),
+    "Snow Bunny": 
+    [('Turtley Leaf', 'Ice Storm'),
      ('Golden Leaf', 'Ice Storm'),
      ('Snow Cone', 'Turtley Leaf'),
      ('Fruit Parfait', 'Turtley Leaf')],
 
-    "Snow Cone": [('Ice Storm', ''),
+    "Snow Cone": 
+    [('Ice Storm', ''),
      ('Peachy Peach', 'Ice Storm'),
      ('Keel Mango', 'Ice Storm'),
      ('Blue Apple', 'Ice Storm'),
@@ -2881,7 +2816,8 @@ recipes = {
      ('Dayzee Syrup', 'Ice Storm'),
      ('Sap Syrup', 'Ice Storm')],
 
-    "Space Food": [('Shroom Shake', 'Ice Storm'),
+    "Space Food": 
+    [('Shroom Shake', 'Ice Storm'),
      ('Long-Last Shake', 'Ice Storm'),
      ('Volt Shroom', 'Ice Storm'),
      ('Super Shroom Shake', 'Ice Storm'),
@@ -2905,7 +2841,8 @@ recipes = {
      ('Whacka Bump', 'Ice Storm'),
      ('Horsetail', 'Ice Storm')],
 
-    "Spaghetti Plate": [('Fresh Pasta Bunch', ''),
+    "Spaghetti Plate": 
+    [('Fresh Pasta Bunch', ''),
      ('Fresh Pasta Bunch', 'Shroom Shake'),
      ('Fresh Pasta Bunch', 'Long-Last Shake'),
      ('Fresh Pasta Bunch', 'Volt Shroom'),
@@ -2936,7 +2873,8 @@ recipes = {
      ('Omelette Plate', 'Fresh Pasta Bunch'),
      ('Veggie Set', 'Fresh Pasta Bunch')],
 
-    "Spicy Dinner": [('Hot Sauce', 'Big Egg'),
+    "Spicy Dinner": 
+    [('Hot Sauce', 'Big Egg'),
      ('Hot Sauce', 'Power Steak'),
      ('Hot Sauce', 'Bone-In Cut'),
      ('Hot Sauce', 'Peachy Peach'),
@@ -2954,9 +2892,11 @@ recipes = {
      ('Horsetail', 'Hot Sauce'),
      ('Volcano Shroom', 'Hot Sauce')],
 
-    "Spicy Soup": [('Fire Burst', '')],
+    "Spicy Soup": 
+    [('Fire Burst', '')],
 
-    "Spicy Pasta Dish": [('Hot Sauce', 'Fresh Pasta Bunch'),
+    "Spicy Pasta Dish": 
+    [('Hot Sauce', 'Fresh Pasta Bunch'),
      ('Volcano Shroom', 'Fresh Pasta Bunch'),
      ('Spaghetti Plate', 'Hot Sauce'),
      ('Meat Pasta Dish', 'Hot Sauce'),
@@ -2972,7 +2912,8 @@ recipes = {
      ('Spicy Dinner', 'Choco Pasta Dish'),
      ('Spicy Dinner', 'Love Noodle Dish')],
 
-    "Spit Roast": [('Bone-In Cut', ''),
+    "Spit Roast": 
+    [('Bone-In Cut', ''),
      ('Bone-In Cut', 'Fire Burst'),
      ('Bone-In Cut', 'Shroom Shake'),
      ('Bone-In Cut', 'Long-Last Shake'),
@@ -2988,7 +2929,8 @@ recipes = {
      ('Smelly Herb', 'Bone-In Cut'),
      ('Whacka Bump', 'Bone-In Cut')],
 
-    "Stamina Juice": [('Inky Sauce', 'Peachy Peach'),
+    "Stamina Juice": 
+    [('Inky Sauce', 'Peachy Peach'),
      ('Inky Sauce', 'Keel Mango'),
      ('Inky Sauce', 'Blue Apple'),
      ('Inky Sauce', 'Yellow Apple'),
@@ -3016,7 +2958,8 @@ recipes = {
      ('Inky Soup', 'Dayzee Tear'),
      ('Inky Soup', 'Smelly Herb')],
 
-    "Standard Chocolate": [('Mild Cocoa Bean', 'Ghost Shroom'),
+    "Standard Chocolate": 
+    [('Mild Cocoa Bean', 'Ghost Shroom'),
      ('Mild Cocoa Bean', 'Poison Shroom'),
      ('Mild Cocoa Bean', 'Black Apple'),
      ('Lovely Chocolate', 'Ghost Shroom'),
@@ -3037,9 +2980,11 @@ recipes = {
      ('Dyllis Dynamite', 'Mild Cocoa Bean'),
      ('Dyllis Dynamite', 'Lovely Chocolate')],
 
-    "Super Shroom Shake": [('Slimy Extract', 'Life Shroom')],
+    "Super Shroom Shake": 
+    [('Slimy Extract', 'Life Shroom')],
 
-    "Sweet Choco-bar": [('Mild Cocoa Bean', 'Peachy Peach'),
+    "Sweet Choco-bar": 
+    [('Mild Cocoa Bean', 'Peachy Peach'),
      ('Mild Cocoa Bean', 'Keel Mango'),
      ('Mild Cocoa Bean', 'Blue Apple'),
      ('Mild Cocoa Bean', 'Yellow Apple'),
@@ -3050,9 +2995,11 @@ recipes = {
      ('Honey Candy', 'Mild Cocoa Bean'),
      ('Electro Pop', 'Mild Cocoa Bean')],
 
-    "Sweet Cookie Snack": [('Cake Mix', '')],
+    "Sweet Cookie Snack": 
+    [('Cake Mix', '')],
 
-    "Town Special": [('Primordial Fruit', ''),
+    "Town Special": 
+    [('Primordial Fruit', ''),
      ('Primordial Fruit', 'Cake Mix'),
      ('Primordial Fruit', 'Big Egg'),
      ('Mild Cocoa Bean', 'Primordial Fruit'),
@@ -3065,7 +3012,8 @@ recipes = {
      ('Whacka Bump', 'Primordial Fruit'),
      ('Horsetail', 'Primordial Fruit')],
 
-    "Trial Stew": [("Couple's Cake", 'Ghost Shroom'),
+    "Trial Stew": 
+    [("Couple's Cake", 'Ghost Shroom'),
      ("Couple's Cake", 'Poison Shroom'),
      ("Couple's Cake", 'Black Apple'),
      ('Egg Bomb', "Couple's Cake"),
@@ -3074,7 +3022,8 @@ recipes = {
      ('Heavy Meal', "Couple's Cake"),
      ('Dangerous Delight', "Couple's Cake")],
 
-    "Veggie Set": [('Healthy Salad', 'Shroom Shake'),
+    "Veggie Set": 
+    [('Healthy Salad', 'Shroom Shake'),
      ('Healthy Salad', 'Long-Last Shake'),
      ('Healthy Salad', 'Volt Shroom'),
      ('Healthy Salad', 'Super Shroom Shake'),
@@ -3094,7 +3043,8 @@ recipes = {
      ('Healthy Salad', 'Golden Leaf'),
      ('Healthy Salad', 'Horsetail')],
 
-    "Volcano Shroom": [('Hot Sauce', 'Shroom Shake'),
+    "Volcano Shroom": 
+    [('Hot Sauce', 'Shroom Shake'),
      ('Hot Sauce', 'Long-Last Shake'),
      ('Hot Sauce', 'Volt Shroom'),
      ('Hot Sauce', 'Super Shroom Shake'),
@@ -3102,7 +3052,8 @@ recipes = {
      ('Hot Sauce', 'Ultra Shroom Shake'),
      ('Hot Sauce', 'Slimy Shroom')],
 
-    "Volt Shroom": [('Shroom Shake', 'Thunder Rage'),
+    "Volt Shroom": 
+    [('Shroom Shake', 'Thunder Rage'),
      ('Long-Last Shake', 'Thunder Rage'),
      ('Super Shroom Shake', 'Thunder Rage'),
      ('Life Shroom', 'Thunder Rage'),
@@ -3115,7 +3066,8 @@ recipes = {
      ('Electro Pop', 'Ultra Shroom Shake'),
      ('Electro Pop', 'Slimy Shroom')],
 
-    "Warm Cocoa": [('Mild Cocoa Bean', ''),
+    "Warm Cocoa": 
+    [('Mild Cocoa Bean', ''),
      ('Inky Sauce', 'Mild Cocoa Bean'),
      ('Smelly Herb', 'Mild Cocoa Bean'),
      ('Lovely Chocolate', 'Fire Burst'),
@@ -3124,7 +3076,8 @@ recipes = {
      ('Shroom Choco-bar', 'Fire Burst'),
      ('Golden Choco-bar', 'Fire Burst')],
 
-    "Weird Extract": [('Sap Soup', 'Hot Sauce'),
+    "Weird Extract": 
+    [('Sap Soup', 'Hot Sauce'),
      ('Peach Juice', 'Hot Sauce'),
      ('Peach Juice', 'Sap Soup'),
      ('Mango Juice', 'Hot Sauce'),
