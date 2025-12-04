@@ -3,6 +3,7 @@ from all_items import *
 from shop_items import *
 from recipe_dictionary import *
 from needed import *
+from tier_maker import *
 import os
 
 '''
@@ -54,7 +55,7 @@ if not os.path.exists('AllRoutes'):
     os.makedirs('AllRoutes')
 
 for item_search in needed:
-    if item_search in teir3:
+    if item_search in tier3:
         continue
     all_paths = []
     current_path = [item_search]
