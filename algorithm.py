@@ -83,8 +83,6 @@ def recursive_trip(goal, inventory, trip, chain):
 
     chain.remove(goal)
 
-
-    
 def build_trip(inventory, needed):
     trip = []
     chain = set()  # renamed for clarity
@@ -109,3 +107,8 @@ inventory = [random.choice(all_items) for _ in range(10)]
 trip = build_trip(inventory, needed)
 for combination in trip:
     print(combination)
+
+print()
+print("--Inventory--")
+for item in inventory:
+    print(item)
