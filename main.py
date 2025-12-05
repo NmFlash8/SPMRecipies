@@ -11,13 +11,19 @@ def main():
 
     inventory = Inventory([random.choice(all_items) for _ in range(10)])
 
-    trip = build_trip(inventory, needed, tier6)
+    trip, missing_items = build_trip(inventory, needed)
 
-    print("Trip:")
-    print(trip)
+    print("=== Trip Steps ===")
+    for combo in trip:
+        print(f'{combo[0]:<20} + {combo[1]:<20} → {combo[2]}')
 
-    print("\nInventory:")
-    print(inventory)
+    print("\n=== Missing Items Needed ===")
+    for item in missing_items:
+        print(item)
 
+    print("\n=== Inventory ===")
+    for item in inventory.items:
+        print(item)
+        
 if __name__ == "__main__":
     main()
