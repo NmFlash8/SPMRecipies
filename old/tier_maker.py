@@ -1,4 +1,4 @@
-from recipe_dictionary import recipes
+from game_data import recipes
 from shop_items import shop_items as shops
 
 needed = [

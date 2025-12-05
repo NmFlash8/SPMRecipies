@@ -1,7 +1,7 @@
 import csv
-from all_items import *
+from old.all_items import *
 from shop_items import *
-from recipe_dictionary import *
+from game_data import *
 from needed import *
 from tier_maker import *
 import os

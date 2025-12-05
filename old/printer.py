@@ -1,4 +1,4 @@
-from recipe_dictionary import *
+from game_data import *
 while True:
     item = input('Item: ')
     for recipe in recipes[item]:

@@ -4,7 +4,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import tkinter as tk
 from tkinter import ttk
-from all_items import all_items
+from old.all_items import all_items
 import random
 
 # Inventory list with 10 random items to start

@@ -1,4 +1,4 @@
-from recipe_dictionary import recipes
+from game_data import recipes
 import random
 
 shop_items = ['Fire Burst', 'Ice Storm', 'Thunder Rage', 'Shooting Star', 'POW Block', 'Shell Shock', 'Gold Bar', 'Gold Bar x3', 'Block Block', 'Volt Shroom', 'Ghost Shroom', 'Sleepy Sleep', 'Slimy Shroom', 'Stop Watch', 'Shroom Shake', 'Super Shroom Shake', 'Ultra Shroom Shake', 'Dried Shroom', 'Life Shroom', 'Long-Last Shake', 'Blue Apple', 'Yellow Apple', 'Red Apple', 'Pink Apple', 'Black Apple', 'Poison Shroom', 'Peachy Peach', 'Keel Mango', 'Primordial Fruit', 'Golden Leaf', 'Turtley Leaf', 'Cake Mix', 'Whacka Bump', 'Horsetail', 'Fresh Pasta Bunch', 'Hot Sauce', 'Inky Sauce', 'Dayzee Tear', 'Sap Soup', 'Bone-In Cut', 'Fresh Veggie', 'Smelly Herb', 'Honey Jar', 'Power Steak', 'Big Egg', 'Mild Cocoa Bean', 'Mighty Tonic', 'Mystery Box', 'Orange Apple', 'Red Apple']
