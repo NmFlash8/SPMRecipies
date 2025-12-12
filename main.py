@@ -15,11 +15,11 @@ Autofill     | Trip Steps | Missing     | all needed recipes
 Inventory    | Buttons    | Buttons     | Buttons
 '''
 
-
 class TripGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Recipe Calculator")
+        master.title("Recipe Calculator - by NmFlash8")
+        master.iconbitmap(False, 'icon.ico')
 
         # Data (start empty — updated from game instead of random)
         self.inventory = Inventory([])
