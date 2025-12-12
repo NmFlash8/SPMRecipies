@@ -123,20 +123,28 @@ def recursive_trip(goal, inventory, trip, chain, missing_items):
 # ============================================================
 
 def build_trip(inventory, needed):
-    """Pick a tier 6 item from needed and generate the best trip for it."""
-    trip = []
-    missing_items = set()
-    chain = set()
+    """Try to build trips for needed goals starting from tier6 → tier1."""
+    tier_order = [tier6, tier5, tier4, tier3, tier2, tier1]
 
-    # Only generate trips for needed tier-6 goals
-    goals = list(set(needed) & set(tier6))
-    if not goals:
-        return trip, missing_items
+    for tier in tier_order:
+        # intersection of needed items and this tier
+        goals = sorted(list(set(needed) & set(tier)))
 
-    # Pick the FIRST alphabetically instead of random
-    # (consistent, predictable behavior)
-    first_goal = sorted(goals)[0]
+        if not goals:
+            continue
 
-    recursive_trip(first_goal, inventory, trip, chain, missing_items)
+        # Try each goal in alphabetical order
+        for goal in goals:
+            trip = []
+            missing_items = set()
+            chain = set()
 
-    return trip, missing_items
+            recursive_trip(goal, inventory, trip, chain, missing_items)
+
+            # If a valid trip was produced OR missing items identified,
+            # return it immediately (this goal is the best match)
+            if trip or missing_items:
+                return trip, missing_items
+
+    # If nothing found in any tier
+    return [], set()
