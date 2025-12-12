@@ -6,6 +6,16 @@ from logic import build_trip
 from game_data import all_items, needed, tier6
 from dme_reader import read_all_items, dme
 
+'''
+GUI Application for Recipe Calculation
+col0         | col1       | col2        |  col3
+--------------------------------------------------------
+Add Item     | Trip Steps | Missing     | all needed recipes
+Autofill     | Trip Steps | Missing     | all needed recipes
+Inventory    | Buttons    | Buttons     | Buttons
+
+'''
+
 
 class TripGUI:
     def __init__(self, master):
@@ -35,54 +45,60 @@ class TripGUI:
         ttk.Label(self.master, text="Add Item to Inventory:") \
             .grid(row=0, column=0, sticky="w")
 
-        self.add_entry = ttk.Entry(self.master, width=30)
+        self.add_entry = ttk.Entry(self.master, width=25)
         self.add_entry.grid(row=1, column=0, padx=5, sticky="w")
         self.add_entry.bind("<KeyRelease>", self.update_autofill)
         self.add_entry.bind("<Return>", self.add_item_from_enter)
 
-        self.autofill_listbox = tk.Listbox(self.master, width=30, height=5)
+        self.autofill_listbox = tk.Listbox(self.master, width=25, height=5)
         self.autofill_listbox.grid(row=2, column=0, padx=5, pady=(0, 10), sticky="w")
         self.autofill_listbox.bind("<<ListboxSelect>>", self.add_item_from_click)
 
-    def create_inventory_section(self):
-        ttk.Label(self.master, text="Inventory:") \
-            .grid(row=3, column=0, sticky="w")
-
-        self.inventory_listbox = tk.Listbox(self.master, width=30, height=10)
-        self.inventory_listbox.grid(row=4, column=0, padx=5, pady=5)
-        self.inventory_listbox.bind("<<ListboxSelect>>", self.remove_inventory_item)
 
     def create_trip_section(self):
         ttk.Label(self.master, text="Trip Steps:") \
             .grid(row=0, column=1, sticky="w")
 
-        self.trip_listbox = tk.Listbox(self.master, width=60, height=10)
-        self.trip_listbox.grid(row=1, column=1, rowspan=3, padx=5, pady=5)
+        self.trip_listbox = tk.Listbox(self.master, width=40, height=15)
+        self.trip_listbox.grid(row=1, column=1, rowspan=2, padx=5, pady=5, sticky="n")
+
 
     def create_missing_section(self):
         ttk.Label(self.master, text="Missing Items Needed:") \
-            .grid(row=3, column=1, sticky="w")
+            .grid(row=0, column=2, sticky="w")
 
-        self.missing_listbox = tk.Listbox(self.master, width=60, height=10)
-        self.missing_listbox.grid(row=4, column=1, padx=5, pady=5)
+        self.missing_listbox = tk.Listbox(self.master, width=40, height=15)
+        self.missing_listbox.grid(row=1, column=2, rowspan=2, padx=5, pady=5, sticky="n")
+
 
     def create_full_needed_section(self):
         ttk.Label(self.master, text="All Needed Recipes (Full List):") \
-            .grid(row=5, column=0, sticky="w")
+            .grid(row=0, column=3, sticky="w")
 
-        self.full_needed_listbox = tk.Listbox(self.master, width=60, height=10)
-        self.full_needed_listbox.grid(row=6, column=0, columnspan=2, padx=5, pady=5)
+        self.full_needed_listbox = tk.Listbox(self.master, width=40, height=15)
+        self.full_needed_listbox.grid(row=1, column=3, rowspan=2, padx=5, pady=5, sticky="n")
         self.full_needed_listbox.bind("<<ListboxSelect>>", self.remove_needed_item)
 
+
+    def create_inventory_section(self):
+        ttk.Label(self.master, text="Inventory:") \
+            .grid(row=3, column=0, sticky="w")
+
+        self.inventory_listbox = tk.Listbox(self.master, width=25, height=10)
+        self.inventory_listbox.grid(row=4, column=0, padx=5, pady=5, sticky="w")
+        self.inventory_listbox.bind("<<ListboxSelect>>", self.remove_inventory_item)
+
+
     def create_buttons(self):
+        # All buttons placed in row 3 across columns 1, 2, 3
         ttk.Button(self.master, text="Generate Trip", command=self.generate_trip) \
-            .grid(row=7, column=0, padx=10, pady=10)
+            .grid(row=3, column=1, padx=10, pady=10)
 
         ttk.Button(self.master, text="Remove 5 Needed Items", command=self.remove_needed) \
-            .grid(row=7, column=1, padx=10, pady=10)
+            .grid(row=3, column=2, padx=10, pady=10)
 
         ttk.Button(self.master, text="Update From Game", command=self.update_inventory_from_game) \
-            .grid(row=7, column=2, padx=10, pady=10)
+            .grid(row=3, column=3, padx=10, pady=10)
 
 
     # =========================================================
