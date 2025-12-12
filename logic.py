@@ -4,8 +4,53 @@ from trip import Trip
 from game_data import *
 
 
+# ============================================================
+# BEST COMBINATION PICKING (DETERMINISTIC)
+# ============================================================
+
+def pick_best_combo(combos, inventory):
+    """
+    Deterministically pick the best combo from equally high-scoring options.
+    Uses a secondary scoring heuristic for stable, non-random selection.
+    """
+
+    def secondary_score(combo):
+        score = 0
+
+        # Prefer items already in inventory
+        if combo.item1 in inventory.items:
+            score += 5
+        if combo.item2 in inventory.items:
+            score += 5
+
+        # Penalize missing ingredients
+        if combo.item1 not in inventory.items:
+            score -= 1
+        if combo.item2 not in inventory.items:
+            score -= 1
+
+        # Stable fallback so results never change order randomly
+        score -= len(combo.item1) + len(combo.item2)
+
+        return score
+
+    # Sort by:
+    #   1. highest secondary_score()
+    #   2. alphabetical fallback (item1, item2)
+    combos_sorted = sorted(
+        combos,
+        key=lambda combo: (-secondary_score(combo), combo.item1, combo.item2)
+    )
+
+    return combos_sorted[0]
+
+
+# ============================================================
+# FIND ALL BEST-SCORING COMBINATIONS
+# ============================================================
+
 def find_best_combinations(goal, inventory):
-    """Return a list of the best-scoring Combination objects to make `goal`."""
+    """Return all Combination objects that tie for best score for `goal`."""
     best_combos = []
     best_score = float('-inf')
 
@@ -22,66 +67,75 @@ def find_best_combinations(goal, inventory):
     return best_combos
 
 
+# ============================================================
+# RECURSIVE TRIP BUILDER
+# ============================================================
+
 def recursive_trip(goal, inventory, trip, chain, missing_items):
     """Recursively collect combinations needed to craft `goal`."""
 
-    # Stop when we hit the max trip length
+    # Cap recursion depth (avoid runaway chains)
     if len(trip) >= 10:
         return
 
-    # Already own the item → no need to craft it
+    # Already owned
     if goal in inventory.items:
         return
 
-    # If the item is uncraftable, blank, shop-only, or has no recipe
+    # Uncraftable or shop-only
     if goal == "" or goal in shop_items or goal not in recipes:
         missing_items.add(goal)
         return
 
-    # Prevent circular crafting loops
+    # Detect crafting loops
     if goal in chain:
         return
 
-    # Select the best combination to craft this item
+    # Determine best combination
     best_combos = find_best_combinations(goal, inventory)
     if not best_combos:
         missing_items.add(goal)
         return
 
-    chosen_combo = random.choice(best_combos)
+    chosen_combo = pick_best_combo(best_combos, inventory)
 
-    # Extract ingredients safely from Combination object
     itemA = chosen_combo.item1
     itemB = chosen_combo.item2
 
-    # Add crafting step to trip
+    # Add to crafting trip
     trip.append((itemA, itemB, goal))
 
-    # Track recursion chain
+    # Track recursion path
     chain.add(goal)
 
-    # Recurse into required ingredients
+    # Recurse into ingredients
     recursive_trip(itemA, inventory, trip, chain, missing_items)
 
-    if itemB:  # Some recipes only need 1 ingredient
+    if itemB:  # Some recipes are only 1 ingredient
         recursive_trip(itemB, inventory, trip, chain, missing_items)
 
     # Done exploring this branch
     chain.remove(goal)
 
 
+# ============================================================
+# MAIN ENTRY POINT
+# ============================================================
+
 def build_trip(inventory, needed):
-    """Pick a tier 6 item from `needed` and recursively generate a trip."""
+    """Pick a tier 6 item from needed and generate the best trip for it."""
     trip = []
     missing_items = set()
     chain = set()
 
-    # Only generate trips for tier 6 items the user needs
+    # Only generate trips for needed tier-6 goals
     goals = list(set(needed) & set(tier6))
     if not goals:
         return trip, missing_items
 
-    first_goal = random.choice(goals)
+    # Pick the FIRST alphabetically instead of random
+    # (consistent, predictable behavior)
+    first_goal = sorted(goals)[0]
 
     recursive_trip(first_goal, inventory, trip, chain, missing_items)
 

@@ -7,13 +7,12 @@ from game_data import all_items, needed, tier6
 from dme_reader import read_all_items, dme
 
 '''
-GUI Application for Recipe Calculation
+GUI Layout Plan:
 col0         | col1       | col2        |  col3
 --------------------------------------------------------
 Add Item     | Trip Steps | Missing     | all needed recipes
 Autofill     | Trip Steps | Missing     | all needed recipes
 Inventory    | Buttons    | Buttons     | Buttons
-
 '''
 
 
