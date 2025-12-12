@@ -4,6 +4,7 @@ import random
 from inventory import Inventory
 from logic import build_trip
 from game_data import all_items, needed, tier6
+from dme_reader import read_all_items, dme
 
 
 class TripGUI:
@@ -11,8 +12,8 @@ class TripGUI:
         self.master = master
         master.title("Recipe Calculator")
 
-        # Data
-        self.inventory = Inventory([random.choice(all_items) for _ in range(10)])
+        # Data (start empty — updated from game instead of random)
+        self.inventory = Inventory([])
 
         # UI Layout
         self.create_add_item_section()
@@ -75,10 +76,14 @@ class TripGUI:
 
     def create_buttons(self):
         ttk.Button(self.master, text="Generate Trip", command=self.generate_trip) \
-            .grid(row=7, column=0, pady=10)
+            .grid(row=7, column=0, padx=10, pady=10)
 
         ttk.Button(self.master, text="Remove 5 Needed Items", command=self.remove_needed) \
-            .grid(row=7, column=1, pady=10)
+            .grid(row=7, column=1, padx=10, pady=10)
+
+        ttk.Button(self.master, text="Update From Game", command=self.update_inventory_from_game) \
+            .grid(row=7, column=2, padx=10, pady=10)
+
 
     # =========================================================
     # AUTOFILL LOGIC
@@ -150,6 +155,21 @@ class TripGUI:
         self.generate_trip()
 
     # =========================================================
+    # READ FROM GAME MEMORY
+    # =========================================================
+
+    def update_inventory_from_game(self):
+        try:
+            new_items = read_all_items(dme)
+            self.inventory.items = new_items
+            print("Inventory updated from game:", new_items)
+
+        except Exception as e:
+            print("Error reading game memory:", e)
+
+        self.generate_trip()
+
+    # =========================================================
     # MAIN TRIP LOGIC
     # =========================================================
 
@@ -170,6 +190,7 @@ class TripGUI:
 
         # Needed recipes refresh
         self.refresh_full_needed()
+
 
 
 if __name__ == "__main__":
