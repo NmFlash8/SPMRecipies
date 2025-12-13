@@ -43,7 +43,6 @@ def read_all_items(dme):
 
     return all_items
 
-
 def main():
     dme.hook()
     print("Connected to Dolphin Memory Engine\n")
