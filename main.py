@@ -23,7 +23,7 @@ Inventory    | Buttons    | Buttons     | Buttons
 class TripGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Recipe Calculator - by NmFlash8")
+        master.title("Recipe Calculator - By NmFlash8")
         master.iconbitmap(False, 'icon.ico')
 
         # Data (start empty — or restored from file)
@@ -78,6 +78,8 @@ class TripGUI:
 
         self.missing_listbox = tk.Listbox(self.master, width=40, height=15)
         self.missing_listbox.grid(row=1, column=2, rowspan=2, padx=5, pady=5, sticky="n")
+        self.missing_listbox.bind("<<ListboxSelect>>", self.add_missing_to_inventory)
+
 
     def create_full_needed_section(self):
         ttk.Label(self.master, text="All Needed Recipes (Full List):") \
@@ -104,6 +106,10 @@ class TripGUI:
 
         ttk.Button(self.master, text="Update From Game", command=self.update_inventory_from_game) \
             .grid(row=3, column=3, padx=10, pady=10)
+        
+        ttk.Button(self.master, text="Export Trip to TXT", command=self.export_trip_to_file) \
+            .grid(row=4, column=1, padx=10, pady=10)
+
 
     # =========================================================
     # AUTOFILL LOGIC
@@ -137,7 +143,7 @@ class TripGUI:
             self.add_item_to_inventory(self.autofill_listbox.get(0))
 
     # =========================================================
-    # REMOVE HANDLERS
+    # REMOVE / ADD HANDLERS
     # =========================================================
 
     def remove_inventory_item(self, event):
@@ -161,17 +167,65 @@ class TripGUI:
 
         line = self.trip_listbox.get(selection[0])
 
-        if "→" in line:
-            product = line.split("→")[-1].strip()
-        else:
+        if "→" not in line or "+" not in line:
             return
 
+        # Parse the ingredients and product
+        ingredients_part, product = line.split("→")
+        product = product.strip()
+        ingredients = [x.strip() for x in ingredients_part.split("+")]
+
+        # Remove ingredients from inventory if present
+        for item in ingredients:
+            if item in self.inventory.items:
+                self.inventory.items.remove(item)
+                print(f"Removed ingredient from inventory: {item}")
+
+        # Add product to inventory
+        if product not in self.inventory.items:
+            self.inventory.items.append(product)
+            print(f"Added crafted item to inventory: {product}")
+
+        # Remove product from needed if it exists
         if product in needed:
             needed.remove(product)
             print(f"Removed crafted recipe from needed: {product}")
 
-        self.refresh_full_needed()
+        # Refresh GUI
         self.generate_trip()
+
+    def add_missing_to_inventory(self, event):
+        selection = self.missing_listbox.curselection()
+        if not selection:
+            return
+
+        item = self.missing_listbox.get(selection[0])
+
+        if item not in self.inventory.items:
+            self.inventory.items.append(item)
+            print(f"Added missing item to inventory: {item}")
+
+        # Optionally remove from needed if you want it gone after adding
+        if item in needed:
+            needed.remove(item)
+            print(f"Removed item from needed: {item}")
+
+        # Refresh the GUI
+        self.generate_trip()
+
+    # =========================================================
+    # EXPORT TRIP TO FILE
+    # =========================================================
+
+    def export_trip_to_file(self):
+        try:
+            with open("CurrentTrip.txt", "w") as f:
+                for i in range(self.trip_listbox.size()):
+                    f.write(self.trip_listbox.get(i) + "\n")
+            print("Trip exported to CurrentTrip.txt!")
+        except Exception as e:
+            print("Error exporting trip:", e)
+
 
     # =========================================================
     # SAVE / LOAD PERSISTENCE
